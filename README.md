@@ -1,1 +1,12 @@
-# DZ3-Uros_Manojlovic
+**Napravite klase Autobus i TestAutobus sa sledećim uslovima:**
+
+a)	Klasa Autobus koja ima: 
+-	Atribut koji predstavlja niz sedišta u autobusu. Svako sedište može da bude slobodno ili zauzeto. Ako je slobodno, vrednost odgovarajućeg elementa niza je TRUE, a ako je zauzeto, onda je FALSE. Autobus ima tačno 50 sedišta. 
+-	Konstruktor koji postavlja vrednost svih sedišta iz niza na slobodna (TRUE). 
+-	Metodu za uvođenje putnika u autobus. Ova metoda prima kao ulazni argument broj sedišta na koje bi trebalo uvesti putnika (brojevi sedišta su od 0 do 49). Ako je sedište slobodno (TRUE), sedište postaje zauzeto (FALSE) a ako je već bilo zauzeto, ispisuje se poruka o grešci. 
+-	Metodu koja proverava da li ima slobodnih mesta u autobusu. Metoda vraća TRUE ako ima slobodnih mesta, u suprotnom FALSE. 
+-	Metodu koja vraća broj slobodnih mesta u autobusu. 
+-	Metodu koja vraća broja zauzetih mesta u autobusu. 
+-	Metodu koja ispisuje status svakog sedišta iz autobusa u obliku “Sedište broj ## je slobodno” ili “Sedište broj ## je zauzeto”. 
+
+b)	Klasa TestAutobus koja kreira jedan objekat klase Autobus i uvodi u njega tri putnika: na prvo, dvadeseto i poslednje mesto u autobusu. Posle toga, potrebno je ispisai statuse svih mesta u autobusu. 
